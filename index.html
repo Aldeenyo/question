@@ -2,23 +2,31 @@
 <html>
 	<head>
 		<style>
-			.button{
-			width: 0px;
-			height: 0px;
-			color: #4444dd;
-			font-size: 248px;
-			}
+		.button{
+		width: 0px;
+		height: 0px;
+		color: #4444dd;
+		font-size: 248px;
+		}
 		</style>
 		<script>
+			var x = 5;
+			var y=prompt("type name");
 			function yeetus(){
+				console.log(y);
 				prompt("give me a yes or no question");
-				x=Math.floor(Math.random()*10)
-				if (x<=3) {
-					alert("yes");
+				if (y=="Ashton"||y=="ashton"){
+					alert("no")
 				}else{
-					alert("No")
+					x=Math.floor(Math.random()*10)
+					console.log(x);
+						if (x<=3) {
+						alert("yes");
+					}else{
+						alert("No")
 				}
 			}
+		}
 		</script>
 	</head>
 	<body>
